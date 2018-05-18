@@ -6,8 +6,8 @@ Welcome to the README for Battleship Game!
 This is a Battleship game created in java and can be played in command line.
 
 #### How to Play the Game
-You have a board of 7×7.
-BOARD:
+You have a board of 7×7.<br>
+BOARD:<br>
   1 2 3 4 5 6 7 <br>
 a - - - - - - - <br>
 b - - - - - - - <br>
@@ -29,10 +29,10 @@ KEY:
 * 'h' = hit
  
 The first thing you should do is to place the boats in the game board.
-* Please Note: Boats can only go vertically or horizontally a letter means row and a number means column!
-⋅⋅* Ex. to input a boat of size 3 in a vertical row, input 1 a b c
+* Note: Boats can only go vertically or horizontally a letter means row and a number means column!
+..* Ex. to input a boat of size 3 in a vertical row, input 1 a b c
 		or to input a boat of size 2 in a horizontal row input a 1 2
-⋅⋅* Note: Make sure there are spaces between the input and the outputs.
+..* Note: Make sure there are spaces between the input and the outputs.
  
 The goal of the game is to sink all of your opponents ships before they sink all of your ships. A player has 2 different boards, 'my board' has where your ships are located and 'playing board' keeps track of all of your opponent's ships that you have hit or missed.
  
