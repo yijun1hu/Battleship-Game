@@ -1,8 +1,11 @@
-A java version of the game battleship!
+# Battleship Game Summer 2016
 
----------------
-RULES
----------------
+Welcome to the README for Battleship Game!
+
+### General Information
+This is a Battleship game created in java and can be played in command line.
+
+#### How to Play the Game
 You have a board of 7×7.
 BOARD:
   1 2 3 4 5 6 7
@@ -45,17 +48,20 @@ KEY:
  	Note: Make sure that it follows the format "row col" or "letter number"
  			or else it will be considered invalid.
 
----------------
-Original Game
----------------
-This game is based off of the original battleship game, see 
-http://www.hasbro.com/common/instruct/Battleship.PDF for more information
-	Note: The grid size and the number of boats are different in this game.
-
----------------
-How this game is structured
----------------
+#### How this game is structured
 Players have 2 different boards, their boards and their playing boards.
 Their boards contains the placement of their ships and what the
 where the opponents have hit and missed. The playing board records where
 you have hit the opponent's ship.
+
+#### Original Game
+This game is based off of the original battleship game, see 
+http://www.hasbro.com/common/instruct/Battleship.PDF for more information
+	Note: The grid size and the number of boats are different in this game.
+
+### Build
+Run the following in command line:
+```
+javac Main.java Board.java Player.java
+java Main
+```
